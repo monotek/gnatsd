@@ -1,6 +1,7 @@
 name: gnatsd
 description: A High Performance NATS Server written in Go and hosted by the Cloud Native Computing Foundation (CNCF)
 homepage: https://nats.io/
+buildpack: https://github.com/heroku/heroku-buildpack-go.git
 targets:
   centos-6:
   centos-7:
@@ -12,4 +13,3 @@ before:
   - mv packager/Procfile .
 after:
   - mv bin/gnatsd gnatsd
-buildpack: https://github.com/heroku/heroku-buildpack-go.git

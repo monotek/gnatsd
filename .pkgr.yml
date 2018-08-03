@@ -1,0 +1,11 @@
+name: gnatsd
+description: A High Performance NATS Server written in Go and hosted by the Cloud Native Computing Foundation (CNCF)
+homepage: https://nats.io/
+notifications: false
+targets:
+  centos-7:
+  debian-8:
+  debian-9:
+  ubuntu-16.04:
+  ubuntu-18.04:
+  sles-12:
